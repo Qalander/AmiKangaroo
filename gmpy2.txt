@@ -4,3 +4,21 @@ python -m pip install gmpy2-2.0.8-cp27-cp27m-win32.whl
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
+sudo apt-get update
+
+git clone https://github.com/amiwrcd/AmiKangaroo.git
+
+cd AmiKangaroo
+
+sudo apt install python3-gmpy2
+
+sudo apt install python3
+
+python3 -m pip install gmpy2-2.0.8-cp37-cp37m-win_amd64.whl
+
+python3 pollard-kangaroo.py 32 02ed949eaca31df5e8be9bf46adc1dfae1734b8900dcc303606831372955c728da
+python3 pollard-kangaroo-multi.py 32 02ed949eaca31df5e8be9bf46adc1dfae1734b8900dcc303606831372955c728da
+
+cat results.txt
+
+
