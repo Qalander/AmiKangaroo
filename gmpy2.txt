@@ -22,3 +22,12 @@ python3 pollard-kangaroo-multi.py 32 02ed949eaca31df5e8be9bf46adc1dfae1734b8900d
 cat results.txt
 
 
+!bash
+
+whoami
+
+cat /etc/*-release
+
+lscpu
+
+sudo apt-get install openssh-server && sudo systemctl enable ssh && service ssh start && sudo apt-get install sshpass
